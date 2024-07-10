@@ -1,4 +1,74 @@
 html {
-  background: #0025ff;
+  background: rgb(28, 71, 121);
   color: #fff;
+
+}
+
+.header {
+  background: #80b2e4;
+
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+
+.main-new h1 {
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  background: #80b2e4;
+  padding: 20px;
+  margin: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 667px) and (max-width:1024px) {
+  body {
+    grid-template-columns: repeat (2, 1fr);
+  }
+
+
+}
+
+@media (min-width: 1025px) {
+  body {
+    grid-template-columns: repeat (4, 1fr);
+  }
+
+}
+
+.follow {
+  background: white;
+  color: black;
+}
+
+.fa {
+  width: 30px
+}
+
+.fa-github {
+  content: url(./assets/github-mark.svg);
+}
+
+.fa-linkedin {
+  content: url(./assets/linkedin-logo.png);
+}
+
+.fa-instagram {
+  content: url(./assets/instagram-logo.png);
 }

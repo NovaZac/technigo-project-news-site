@@ -1,23 +1,109 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <!-- Change the title below -->
-    <title>News Site</title>
-    <link rel="stylesheet" href="./style.css" />
-    <!-- dont forget the meta tag for responsiveness -->
-  </head>
-  <body>
-    <header>
-      <!-- Some kind of logo and navbar -->
-    </header>
 
-    <section class="big-news">
-      <!-- The big news content -->
-    </section>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MuscleMagnet News</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
 
-    <section class="">
-      <!-- The other news  -->
-    </section>
-  </body>
+<body>
+  <header class="header">
+    <!--Logo= MuscleMagnet News
+    <a href="#" class="active"> 
+        <span class="sr-only"> Logotype of musclemagnet news</span>-->
+    <!-- Some kind of logo and navbar -->
+    <span class="logo">
+      <img src="./assets/Untitled (1).png" alt="Logo" width="200px" height="auto">
+    </span>
+    <nav class="nav" id="myNav">
+      <a href="#news">News</a>
+      <a href="#videos">Videos</a>
+      <a href="#fitness">Fitness</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <section class="main-new">
+    <!-- The big news content -->
+    <h1>A New Era of Training: AI Has Arrived!</h1>
+    <div class="main">
+      <figure>
+        <img src="./assets/meghan-holmes-buWcS7G1_28-unsplash.jpg" alt="Gym" width="400px">
+      </figure>
+      <h3>Discover how artificial intelligence is revolutionizing fitness</h3>
+      <div class="extended">
+        <p>From personalized workout plans to real-time performance tracking.</p>
+        <button>Read more</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="more">
+    <h2>More news:</h2>
+  </div>
+
+  <section class="smaller-news">
+    <div class="VRnews">
+      <figure>
+        <img src="./assets/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg" alt="pullup" width="300px">
+        <figcaption>
+          <h3>Virtual Reality Gyms: The Future of Home Workouts</h3>
+        </figcaption>
+      </figure>
+
+      <p>Allows users to workout in virtual worlds</p>
+
+      <button>Read more</button>
+    </div>
+
+    <div class="supplement">
+      <figure>
+        <img src="./assets/pexels-scottwebb-136404.jpg" alt="legpress" width="300px">
+        <figcaption>
+          <h3>New Supplement Improves Muscle Building</h3>
+        </figcaption>
+      </figure>
+
+      <p>Proven to be highly effective in building muscles</p>
+
+      <button>Read more</button>
+    </div>
+
+    <div class="new-app">
+      <figure>
+        <!--Fix the video autoplay-->
+        <video width="320" height="240" autoplay loop controls="false">
+          <source src="./assets/mixkit-strong-woman-training-weightlifting-in-a-gym-44414-hd-ready.mp4"
+            type="video/mp4">
+        </video>
+        <figcaption>
+          <h3>Workout App for Beginners: Easy Start to Your Fitness Journey</h3>
+        </figcaption>
+      </figure>
+
+      <p>For beginners wanting to start their fitness journey</p>
+
+      <button>Read more</button>
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="copyright">
+      <span>Created by Nova Zackrisson</span>
+    </div>
+
+    <div class="follow">
+      <span>Follow</span>
+      <a class="fa fa-github" target="_blank" title="GitHub Nova Zackrisson" href="https://github.com/NovaZac"></a>
+      <a class="fa fa-linkedin" target="_blank" title="linkedin Nova Zackrisson"
+        href="https://www.linkedin.com/in/nova-zackrisson-b999272b0/"></a>
+      <a class="fa fa-instagram" target="_blank" title="Instagram Nova Zackrisson"
+        href="https://www.instagram.com/nova_zackrisson/"></a>
+    </div>
+  </footer>
+</body>
+
 </html>
