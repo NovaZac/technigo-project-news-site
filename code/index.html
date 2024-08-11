@@ -5,49 +5,57 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MuscleMagnet News</title>
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./style.css"/>
 </head>
 
-<body>
+<body margin="0">
+  <!-- START header with navigationbar and logo -->
   <header class="header">
-    <!--Logo= MuscleMagnet News
-    <a href="#" class="active"> 
-        <span class="sr-only"> Logotype of musclemagnet news</span>-->
-    <!-- Some kind of logo and navbar -->
-    <span class="logo">
-      <img src="./assets/Untitled (1).png" alt="Logo" width="200px" height="auto">
-    </span>
-    <nav class="nav" id="myNav">
-      <a href="#news">News</a>
-      <a href="#videos">Videos</a>
-      <a href="#fitness">Fitness</a>
-      <a href="#about">About</a>
-    </nav>
+      <img 
+      class="logo" 
+      src="./assets/Untitled (1).png" 
+      alt="Logo" 
+      width="25%" 
+      height="auto">
+      <a class="news" href="#news">News</a></li>
+      <a class="videos" href="#videos">Videos</a></li>
+      <a class="fitness" href="#fitness">Fitness</a></li>
+      <a class="about" href="#about">About</a></li>
   </header>
+  <!-- END header with navigationbar and logo -->
 
+  <!-- START main new sectiom -->
   <section class="main-new">
-    <!-- The big news content -->
     <h1>A New Era of Training: AI Has Arrived!</h1>
     <div class="main">
       <figure>
-        <img src="./assets/meghan-holmes-buWcS7G1_28-unsplash.jpg" alt="Gym" width="400px">
+        <img 
+        src="./assets/meghan-holmes-buWcS7G1_28-unsplash.jpg" 
+        alt="Gym" 
+        width="100%">
       </figure>
       <h3>Discover how artificial intelligence is revolutionizing fitness</h3>
       <div class="extended">
-        <p>From personalized workout plans to real-time performance tracking.</p>
-        <button>Read more</button>
+        <p>From personalized workout plans to real-time performance tracking</p>
+        <button>Read article</button>
       </div>
     </div>
   </section>
+  <!-- END main new section -->
 
   <div class="more">
     <h2>More news:</h2>
   </div>
 
+  <!-- START smaller news section -->
   <section class="smaller-news">
+   
     <div class="VRnews">
       <figure>
-        <img src="./assets/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg" alt="pullup" width="300px">
+        <img 
+        src="./assets/victor-freitas-Pnm-9vBEQhk-unsplash.jpg" 
+        alt="plate" 
+        width="100%">
         <figcaption>
           <h3>Virtual Reality Gyms: The Future of Home Workouts</h3>
         </figcaption>
@@ -55,12 +63,15 @@
 
       <p>Allows users to workout in virtual worlds</p>
 
-      <button>Read more</button>
+      <button>Read article</button>
     </div>
 
     <div class="supplement">
       <figure>
-        <img src="./assets/pexels-scottwebb-136404.jpg" alt="legpress" width="300px">
+        <img 
+        src="./assets/pexels-scottwebb-136404.jpg" 
+        alt="legpress" 
+        width="100%">
         <figcaption>
           <h3>New Supplement Improves Muscle Building</h3>
         </figcaption>
@@ -68,15 +79,15 @@
 
       <p>Proven to be highly effective in building muscles</p>
 
-      <button>Read more</button>
+      <button>Read article</button>
     </div>
 
     <div class="new-app">
       <figure>
-        <!--Fix the video autoplay-->
-        <video width="320" height="240" autoplay loop controls="false">
-          <source src="./assets/mixkit-strong-woman-training-weightlifting-in-a-gym-44414-hd-ready.mp4"
-            type="video/mp4">
+        <video width="100%" height="auto" autoplay muted loop controls="false">
+          <source 
+          src="./assets/mixkit-strong-woman-training-weightlifting-in-a-gym-44414-hd-ready.mp4"
+          type="video/mp4">
         </video>
         <figcaption>
           <h3>Workout App for Beginners: Easy Start to Your Fitness Journey</h3>
@@ -85,25 +96,109 @@
 
       <p>For beginners wanting to start their fitness journey</p>
 
-      <button>Read more</button>
+      <button>Read article</button>
     </div>
 
-  </section>
+    <div class="sleep">
+      <figure>
+        <img 
+        src="./assets/victor-freitas-WvDYdXDzkhs-unsplash.jpg" 
+        alt="deadlift" 
+        width="100%">
+        <figcaption>
+          <h3>New Fitness Trend: "Sleep Your Way to Strength"</h3>
+        </figcaption>
+      </figure>
 
-  <footer>
+      <p>Revolutionary Program Promises Muscle Growth and Recovery</p>
+      <button>Read article</button>
+    </div>
+
+    <div class="morningwo">
+      <figure>
+        <img 
+        src="./assets/victor-freitas-vjkM-0m34KU-unsplash.jpg" 
+        alt="heavydeadlift" 
+        width="100%">
+        <figcaption>
+          <h3>Morning Workouts: The Secret to All-Day Energy</h3>
+        </figcaption>
+      </figure>
+
+      <p>Kickstart your day with a boost that lasts</p>
+      <button>Read article</button>
+    </div>
+
+    <div class="protein">
+      <figure>
+        <img 
+        src="./assets/scott-webb-5IsdIqwwNP4-unsplash.jpg" 
+        alt="blondewoman" 
+        width="100%">
+        <figcaption>
+          <h3>The Power of Protein: Building Muscle on a Plant-Based Diet</h3>
+        </figcaption>
+      </figure>
+
+      <p>Strength gains without the steak</p>
+      <button>Read article</button>
+    </div>
+
+    <div class="corewo">
+      <figure>
+        <img 
+        src="./assets/karsten-winegeart-0Wra5YYVQJE-unsplash.jpg" 
+        alt="rope" 
+        width="100%">
+        <figcaption>
+          <h3>The 10-Minute Core Workout: Abs Made Easy</h3>
+        </figcaption>
+      </figure>
+
+      <p>A quick routine to sculpt your midsection</p>
+      <button>Read article</button>
+    </div>
+
+    <div class="watermyths">
+      <figure>
+        <img 
+        src="./assets/bruce-mars-HHXdPG_eTIQ-unsplash.jpg" 
+        alt="abs" 
+        width="100%">
+        <figcaption>
+          <h3>Hydration Myths: How Much Water Do You Really Need?</h3>
+        </figcaption>
+      </figure>
+
+      <p>Debunking common hydration misconceptions</p>
+      <button>Read article</button>
+    </div>
+  </section>
+  <!-- END smaller news section -->
+
+  <!-- START footer with links -->
+  <footer class="footer">
     <div class="copyright">
       <span>Created by Nova Zackrisson</span>
     </div>
 
     <div class="follow">
       <span>Follow</span>
-      <a class="fa fa-github" target="_blank" title="GitHub Nova Zackrisson" href="https://github.com/NovaZac"></a>
-      <a class="fa fa-linkedin" target="_blank" title="linkedin Nova Zackrisson"
-        href="https://www.linkedin.com/in/nova-zackrisson-b999272b0/"></a>
-      <a class="fa fa-instagram" target="_blank" title="Instagram Nova Zackrisson"
-        href="https://www.instagram.com/nova_zackrisson/"></a>
+      <a class="fa fa-github" 
+      target="_blank" 
+      title="GitHub Nova Zackrisson" 
+      href="https://github.com/NovaZac"></a>
+      <a class="fa fa-linkedin" 
+      target="_blank" 
+      title="linkedin Nova Zackrisson"
+      href="https://www.linkedin.com/in/nova-zackrisson-b999272b0/"></a>
+      <a class="fa fa-instagram" 
+      target="_blank" 
+      title="Instagram Nova Zackrisson"
+      href="https://www.instagram.com/nova_zackrisson/"></a>
     </div>
   </footer>
+  <!-- END footer with links -->
 </body>
 
 </html>

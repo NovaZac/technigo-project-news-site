@@ -1,64 +1,206 @@
 html {
-  background: rgb(28, 71, 121);
-  color: #fff;
-
+  display: grid;
+  background: rgb(255, 255, 255);
 }
 
-.header {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
   background: #80b2e4;
-
+  padding-right: 4rem;
 }
 
-.logo {
+.logo, .header a{
   display: flex;
-  justify-content: flex-start;
+  align-items: flex-end;
+  align-items: center;
+  padding: 4%;
+  margin: 0;
 }
 
-.nav {
-  display: flex;
-  justify-content: flex-end;
+.header a {
+  color: #000;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
+header a:hover {
+  background-color: rgb(28, 71, 121);
+  color: #80b2e4;
+}
 
 .main-new h1 {
-  font-size: 48px;
-  display: flex;
-  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  margin-top: 50px;
+  text-align: center;
+  color: #000;
+}
+
+.main-new img {
+  box-shadow: 10px 10px 5px rgb(28, 71, 121);
+}
+
+.main-new div{
+  display: grid;
+}
+
+.main-new h3{
+  padding-top: 2%;
+}
+
+p, h2 { 
+  color: #000;
+  font-family: sans-serif;
+}
+
+h3 {
+  color: #000;
+  font-family: sans-serif;
+  padding-top: 2%;
 }
 
 .main {
-  display: flex;
   background: #80b2e4;
-  padding: 20px;
-  margin: 50px;
-  justify-content: center;
-  flex-wrap: wrap;
+  padding: 5%;
+  margin: 5%;
+  display: grid;
+}
+
+.smaller-news{
+  margin: 5%;
+  margin-bottom: 10%;
+}
+
+.smaller-news div {
+  display: grid;
+  background-color: #80b2e4;
+  padding: 3%;
+  margin: 3%;
+}
+
+video{
+  pointer-events: none;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  padding: 8px;
+  margin-top: 4px;
+  border: #000;
+  border-radius: 5px;
+  width:90px;
+  height: 40px;
+  justify-self: end;
+  align-self: end;
+}
+
+button:hover {
+  background-color: rgb(28, 71, 121);
+  color:#80b2e4;
+}
+
+.more {
+  text-align: center;
 }
 
 @media (min-width: 667px) and (max-width:1024px) {
-  body {
-    grid-template-columns: repeat (2, 1fr);
+  
+  .logo, .header a{
+    padding: 2%;
   }
 
+  .header a {
+    font-size: large;
+  }
+  .smaller-news {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    column-gap: 5px;
+    row-gap: 10px;
+  }
+
+  .main-new h1 {
+    font-size: 38px; 
+    text-align: center;  
+  }
 
 }
 
 @media (min-width: 1025px) {
-  body {
-    grid-template-columns: repeat (4, 1fr);
+  
+  .logo{
+    padding: 1%;
+  }
+
+  .header a {
+    font-size: larger;
+    padding: 0 2%;
+  }
+
+  .main-new h1 {
+    font-size: 48px;   
+  }
+
+  .more{
+    font-size: larger;
+  }
+
+  .smaller-news {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 350px 350px;
+    column-gap: 10px;
+    row-gap: 15px; 
+  }
+   
+  .smaller-news div{
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .smaller-news h3 {
+    font-size: 18px;
+  }
+  
+  .smaller-news p{
+    font-size: 15px;
   }
 
 }
 
-.follow {
-  background: white;
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #80b2e4;
+  padding: 2rem;
+  font-size: 0.8rem;
+  font-family: sans-serif;
+}
+
+.copyright, .follow {
+  display: flex;
+  align-items: flex-end;
+  align-items: center;
+  column-gap: 0.5rem;
+  background: #80b2e4;
   color: black;
 }
 
+
 .fa {
-  width: 30px
+  background-color: #80b2e4;
+  width: 25px;
 }
 
 .fa-github {

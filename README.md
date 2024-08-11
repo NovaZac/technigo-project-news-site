@@ -1,10 +1,9 @@
 # News Site
+The assignment was to develop a news website on a topic of our choice, and I decided to focus on fitness. The purpose of this assignment was to implement what I’ve learned about Flexbox and CSS Grid, so the focus was not primarily on the content of the articles.
 
-Replace this readme with your own information about the project. You can include things like:
+I started by planning the structure of the website, sketching out a layout for each device — mobile, tablet, and desktop. Additionally, collecting different news articles that I could implement. 
 
-- Brief description of the assignment
-- How you approached the task, what tools and techniques you used, and how you planned it
-- If you had more time, what would be next?
+If I had more time, I would have focused on improving the navigation bar by adding a menu button for mobile devices, rather than displaying all the links upfront.
+
 
 ## View it live
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
