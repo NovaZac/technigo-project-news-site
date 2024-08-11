@@ -7,3 +7,4 @@ If I had more time, I would have focused on improving the navigation bar by addi
 
 
 ## View it live
+https://main--musclemagnetnews.netlify.app/
